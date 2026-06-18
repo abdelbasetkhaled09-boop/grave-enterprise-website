@@ -49,20 +49,20 @@ export default function Reviews() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-16">
           <div className="lg:col-span-8 space-y-4">
             <span className="text-red-650 uppercase tracking-widest font-black text-xs font-mono bg-red-50 px-3.5 py-1 rounded-full border border-red-100">
-              Nolan County Customer Voices
+              Virginia Customer Voices
             </span>
             <h2 id="reviews-heading" className="text-3xl sm:text-4xl md:text-5xl font-black text-neutral-900 tracking-tight">
               Real Feedback from Local Drivers
             </h2>
             <p className="text-neutral-600 text-sm sm:text-base font-medium">
-              Grave Enterprise runs on community trust. We are honored to hold an outstanding 4.8-star feedback rating in Sweetwater, TX. Read through what fellow Texas ranchers, commercial truckers, and commuters think.
+              William's Auto Repair runs on community trust. We are honored to hold an outstanding 4.3-star feedback rating (29 Reviews) on Google representing our dedicated service in Scottsville, VA. Read through what fellow Scottsville and Albemarle county commuters and families think.
             </p>
           </div>
 
           {/* Google Star Badge Card */}
           <div className="lg:col-span-4 bg-neutral-50 p-6 rounded-2xl border border-neutral-200 flex flex-col items-center justify-center text-center shadow-sm">
             <div className="flex items-center space-x-1.5 mb-2">
-              <span className="text-neutral-900 font-mono font-black text-4xl">4.8</span>
+              <span className="text-neutral-900 font-mono font-black text-4xl">4.3</span>
               <span className="text-neutral-500 text-lg font-bold">/ 5.0</span>
             </div>
             
@@ -133,7 +133,7 @@ export default function Reviews() {
                 <div>
                   <h4 className="text-neutral-900 font-extrabold text-sm leading-none">{review.author}</h4>
                   <span className="text-[10px] text-neutral-500 font-mono inline-block mt-1 font-bold">
-                    Posted {review.date} • Sweetwater, TX
+                    Posted {review.date} • Scottsville, VA
                   </span>
                 </div>
               </div>
@@ -181,7 +181,7 @@ export default function Reviews() {
                   Share Your Experience
                 </h3>
                 <p className="text-neutral-500 text-xs font-medium">
-                  Your feedback helps Grave Enterprise keep Sweetwater and Nolan county drivers safely outfitted on the road.
+                  Your feedback helps William's Auto Repair keep Scottsville and Albemarle county drivers safely on the road.
                 </p>
               </div>
 
@@ -221,7 +221,7 @@ export default function Reviews() {
                     value={newReview.text}
                     onChange={(e) => setNewReview(prev => ({ ...prev, text: e.target.value }))}
                     rows={4}
-                    placeholder="Tell Sweetwater about your experience with our auto repairs, spray liners, or truck installations..."
+                    placeholder="Tell our community about your experience with our auto repairs, diagnostic tuning, or professional paint jobs..."
                     className="w-full bg-white border border-neutral-300 focus:border-red-500 rounded-lg p-3 text-sm text-neutral-800 placeholder-neutral-400 focus:outline-none resize-none"
                     required
                   />

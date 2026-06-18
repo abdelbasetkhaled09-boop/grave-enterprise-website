@@ -21,8 +21,8 @@ export default function Hero() {
       {/* Background Image with Brightened Dark-to-Light Professional Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/grave_hero_1781203045092.jpg"
-          alt="Grave Enterprise Auto Repair Shop Interior"
+          src="/src/assets/images/williams_hero_1781813633300.jpg"
+          alt="William's Auto Repair Shop Interior"
           className="w-full h-full object-cover object-center scale-102 filter brightness-[0.38] contrast-[1.05]"
           referrerPolicy="no-referrer"
         />
@@ -48,7 +48,7 @@ export default function Hero() {
             >
               <Star className="h-4 w-4 text-red-500 fill-red-500" />
               <span className="text-xs font-black tracking-wider text-red-400 uppercase font-mono">
-                Sweetwater's Multi-Service Premium Station
+                Scottsville's Multi-Service Auto Repair & Paint Booth
               </span>
             </motion.div>
 
@@ -59,11 +59,11 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight leading-none"
             >
-              Sweetwater's Trusted <br className="hidden sm:inline" />
+              Scottsville's Trusted <br className="hidden sm:inline" />
               <span className="text-red-500 relative inline-block">
                 Auto Repair
                 <span className="absolute -bottom-1 left-0 w-full h-1 bg-red-600 rounded"></span>
-              </span> & Truck Accessory Shop
+              </span> & Professional Paint Shop
             </motion.h1>
 
             {/* Subheadline */}
@@ -73,7 +73,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg sm:text-xl text-neutral-200 max-w-2xl leading-relaxed font-medium"
             >
-              From certified state inspections and expert A/C repair to professional heavy lift kits, tires, and armor bed liners, Grave Enterprise keeps West Texas drivers safe and moving.
+              From full-service mechanical repairs, computer diagnostics, and engine tuning to professional auto paint jobs and cabin A/C service, William's Auto Repair keeps Virginia drivers safe and moving.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -84,12 +84,12 @@ export default function Hero() {
               className="flex flex-col sm:flex-row gap-4 pt-2"
             >
               <a
-                href="tel:3252197016"
+                href="tel:4342823733"
                 className="flex items-center justify-center space-x-3 bg-red-600 hover:bg-red-700 text-white font-extrabold text-base px-8 py-4 rounded-xl shadow-lg shadow-red-600/30 transition-all transform hover:-translate-y-0.5 active:translate-y-0 border border-red-500 uppercase tracking-wider font-mono"
                 id="hero-call-now"
               >
                 <Phone className="h-5 w-5 animate-pulse" />
-                <span>Call Now: (325) 219-7016</span>
+                <span>Call Now: (434) 282-3733</span>
               </a>
               <button
                 onClick={scrollToContact}
@@ -111,16 +111,16 @@ export default function Hero() {
               <div className="flex items-start space-x-2.5">
                 <Star className="h-5 w-5 text-red-500 fill-red-500 mt-1 flex-shrink-0" />
                 <div>
-                  <h4 className="text-white font-extrabold text-base">4.8 Rating</h4>
-                  <p className="text-xs text-neutral-300">Sweetwater's Best</p>
+                  <h4 className="text-white font-extrabold text-base">4.3 Rating</h4>
+                  <p className="text-xs text-neutral-300">29 Google Reviews</p>
                 </div>
               </div>
               
               <div className="flex items-start space-x-2.5">
                 <Award className="h-5 w-5 text-red-500 mt-1 flex-shrink-0" />
                 <div>
-                  <h4 className="text-white font-extrabold text-base">Certified</h4>
-                  <p className="text-xs text-neutral-300">DOT & TX Inspectors</p>
+                  <h4 className="text-white font-extrabold text-base">Expert Care</h4>
+                  <p className="text-xs text-neutral-300">Painting & Service</p>
                 </div>
               </div>
 
@@ -128,7 +128,7 @@ export default function Hero() {
                 <MapPin className="h-5 w-5 text-red-500 mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="text-white font-extrabold text-base">Local</h4>
-                  <p className="text-xs text-neutral-300">Proudly Texas Owned</p>
+                  <p className="text-xs text-neutral-300">Scottsville, VA Shop</p>
                 </div>
               </div>
             </motion.div>
@@ -152,7 +152,7 @@ export default function Hero() {
               
               <div className="space-y-4 mb-6">
                 <div className="flex items-center justify-between p-3 rounded-lg bg-neutral-50 border border-neutral-150">
-                  <span className="text-neutral-700 text-sm font-semibold">State & DOT Inspections</span>
+                  <span className="text-neutral-700 text-sm font-semibold">General Maintenance & Oil Checks</span>
                   <span className="bg-emerald-600/10 text-emerald-700 text-xs font-bold px-2.5 py-1 rounded-full border border-emerald-500/20 uppercase">
                     Immediate Openings
                   </span>
@@ -164,7 +164,7 @@ export default function Hero() {
                   </span>
                 </div>
                 <div className="flex items-center justify-between p-3 rounded-lg bg-neutral-50 border border-neutral-150">
-                  <span className="text-neutral-700 text-sm font-semibold">Lift Kits & Accessories</span>
+                  <span className="text-neutral-700 text-sm font-semibold">Vehicle Painting & Refinishing</span>
                   <span className="text-amber-700 text-xs font-bold px-2.5 py-1 rounded-full border border-amber-600/20 uppercase bg-amber-500/10">
                     Booking this week
                   </span>
@@ -172,17 +172,17 @@ export default function Hero() {
               </div>
 
               <div className="p-4 bg-red-50 text-neutral-800 text-xs sm:text-sm leading-relaxed mb-6 border border-red-100 rounded-xl font-medium">
-                <strong>Heading out?</strong> We are situated right off Broadway St in Sweetwater. Drive in for official vehicle state inspections or commercial trailer DOT check-ups, no appointment required.
+                <strong>Need custom paint service?</strong> We are situated right on Glenmore Rd in Scottsville. Call or drive in daily for expert mechanical repairs or full-booth painting setups, no digital signup required.
               </div>
 
               <div className="space-y-2 pt-4 border-t border-neutral-100">
                 <div className="flex justify-between items-center text-sm">
                   <span className="text-neutral-500 font-medium">Shop Hours:</span>
-                  <span className="text-neutral-900 font-bold">Mon - Fri: 8am - 6pm</span>
+                  <span className="text-neutral-900 font-bold">Mon - Fri: 9am - 5pm</span>
                 </div>
                 <div className="flex justify-between items-center text-sm">
                   <span className="text-neutral-500 font-medium">Location:</span>
-                  <span className="text-neutral-900 font-bold text-right">1504 W Broadway St, Sweetwater</span>
+                  <span className="text-neutral-900 font-bold text-right">2280 Glenmore Rd, Scottsville</span>
                 </div>
               </div>
             </div>

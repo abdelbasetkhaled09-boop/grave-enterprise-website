@@ -33,10 +33,10 @@ export default function ContactSection() {
             Get in touch directly
           </span>
           <h2 id="contact-heading" className="text-3xl sm:text-4xl md:text-5xl font-black text-neutral-900 tracking-tight">
-            Repairs or Custom Upgrades? Let's Talk
+            Repairs or Custom Painting? Let's Talk
           </h2>
           <p className="text-neutral-600 text-sm sm:text-base font-medium">
-            At Grave Enterprise, we prioritize direct customer care. To keep service fast, fair, and perfectly suited to your vehicle, we connect directly by phone or in person at our Sweetwater shop—no complex web-ticket queues.
+            At William's Auto Repair, we prioritize direct customer care. To keep service fast, fair, and perfectly suited to your vehicle, we connect directly by phone or in person at our Scottsville shop—no complex web-ticket queues.
           </p>
         </div>
 
@@ -48,7 +48,7 @@ export default function ContactSection() {
             
             {/* Direct Call Center Card */}
             <a
-              href="tel:3252197016"
+              href="tel:4342823733"
               className="bg-white p-8 rounded-2xl border border-neutral-200 hover:border-red-500/35 transition-all flex flex-col justify-between group shadow-sm flex-1 cursor-pointer"
             >
               <div className="space-y-4">
@@ -58,10 +58,10 @@ export default function ContactSection() {
                 <div className="space-y-2">
                   <h4 className="text-neutral-500 text-[10px] font-black uppercase tracking-widest font-mono">Immediate Hotline</h4>
                   <p className="text-neutral-900 text-2xl font-black tracking-tight group-hover:text-red-600 transition-colors">
-                    (325) 219-7016
+                    (434) 282-3733
                   </p>
                   <p className="text-neutral-600 text-xs sm:text-sm leading-relaxed font-semibold">
-                    Call our team to check part availability, get quick quotes, or schedule suspension & service times instantly.
+                    Call our team to check our schedule, get quick estimates, or schedule repairs & painting options instantly.
                   </p>
                 </div>
               </div>
@@ -73,7 +73,7 @@ export default function ContactSection() {
 
             {/* Direct Walk-In Location Card */}
             <a
-              href="https://maps.google.com/?q=1504+W+Broadway+St,+Sweetwater,+TX+79556"
+              href="https://maps.google.com/?q=2280+Glenmore+Rd,+Scottsville,+VA+24590"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white p-8 rounded-2xl border border-neutral-200 hover:border-red-500/35 transition-all flex flex-col justify-between group shadow-sm flex-1 cursor-pointer"
@@ -83,12 +83,12 @@ export default function ContactSection() {
                   <MapPin className="h-6 w-6" />
                 </div>
                 <div className="space-y-2">
-                  <h4 className="text-neutral-500 text-[10px] font-black uppercase tracking-widest font-mono">Our Sweetwater Location</h4>
+                  <h4 className="text-neutral-500 text-[10px] font-black uppercase tracking-widest font-mono">Our Scottsville Location</h4>
                   <p className="text-neutral-900 text-xl font-black tracking-tight leading-tight">
-                    1504 W Broadway St
+                    2280 Glenmore Rd
                   </p>
                   <p className="text-neutral-600 text-xs sm:text-sm leading-normal font-semibold">
-                    Sweetwater, TX 79556 • Right off Broadway St with convenient heavy truck ingress/egress.
+                    Scottsville, VA 24590 • Easy access shop located on Glenmore Road.
                   </p>
                 </div>
               </div>
@@ -106,12 +106,12 @@ export default function ContactSection() {
               <div className="flex items-center space-x-3 pb-4 border-b border-neutral-100">
                 <Clock className="h-5 w-5 text-red-600" />
                 <h3 className="text-sm font-black text-neutral-900 uppercase tracking-wider font-mono">
-                  Grave Workshop Operating Hours
+                  William's Auto Repair Operating Hours
                 </h3>
               </div>
 
               <p className="text-neutral-500 text-xs sm:text-sm leading-relaxed font-semibold">
-                State safety inspections and custom installations are processed daily. We welcome walk-ins for Texas Inspections. Drive in from 8:00 AM to 6:00 PM, Mon-Fri!
+                State bodywork refinishing, mechanical diagnostics, and painting services are processed daily. Call ahead for paint-booth slot availability. Drive in from 9:00 AM to 5:00 PM, Monday to Friday!
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
@@ -149,8 +149,8 @@ export default function ContactSection() {
         {/* Full-width Responsive Embedded Map area below details */}
         <div className="mt-8 bg-white rounded-2xl border border-neutral-200 p-4 h-96 overflow-hidden relative group shadow-sm">
           <iframe
-            title="Grave Enterprise Location Map Sweetwater"
-            src="https://maps.google.com/maps?q=1504%20W%20Broadway%20St,%20Sweetwater,%20TX%2079556&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            title="William's Auto Repair Location Map Scottsville"
+            src="https://maps.google.com/maps?q=2280%20Glenmore%20Rd,%20Scottsville,%20VA%2024590&t=&z=15&ie=UTF8&iwloc=&output=embed"
             className="w-full h-full rounded-xl border-0"
             allowFullScreen
             loading="lazy"
@@ -158,17 +158,17 @@ export default function ContactSection() {
           />
 
           <div className="absolute top-6 left-6 bg-neutral-900/95 text-white p-5 rounded-xl border border-neutral-800 backdrop-blur-md shadow-2xl max-w-xs hidden sm:block pointer-events-none">
-            <h4 className="font-mono text-xs font-black uppercase text-red-400 tracking-wider">Sweetwater Service Hub</h4>
+            <h4 className="font-mono text-xs font-black uppercase text-red-400 tracking-wider">Scottsville Service Hub</h4>
             <p className="text-xs leading-relaxed text-neutral-300 mt-1 font-semibold">
-              1504 W Broadway St,<br /> Sweetwater, TX 79556
+              2280 Glenmore Rd,<br /> Scottsville, VA 24590
             </p>
             <span className="text-[10px] text-neutral-400 mt-2.5 block font-mono">
-              ★ Easy pull-in for dualies and large flatbed trailers.
+              ★ Full auto painting and dependable repair services.
             </span>
           </div>
 
           <a
-            href="https://maps.google.com/?q=1504+W+Broadway+St,+Sweetwater,+TX+79556"
+            href="https://maps.google.com/?q=2280+Glenmore+Rd,+Scottsville,+VA+24590"
             target="_blank"
             rel="noopener noreferrer"
             className="absolute bottom-6 right-6 bg-red-600 hover:bg-red-700 text-white text-xs font-bold px-5 py-3.5 rounded-xl shadow-lg flex items-center space-x-2 border border-red-500 transition-all font-mono"

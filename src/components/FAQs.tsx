@@ -97,10 +97,10 @@ export default function FAQs() {
         <div className="mt-12 bg-neutral-50 border border-neutral-200 p-6 rounded-xl flex flex-col sm:flex-row items-center justify-between text-center sm:text-left gap-4 shadow-sm">
           <div className="space-y-1">
             <h4 className="text-neutral-900 font-extrabold text-sm sm:text-base">Have another technical question?</h4>
-            <p className="text-neutral-600 text-xs font-medium">Reach out to us directly or stop by our Sweetwater service center.</p>
+            <p className="text-neutral-600 text-xs font-medium">Reach out to us directly or stop by our Scottsville service center.</p>
           </div>
           <a
-            href="tel:3252197016"
+            href="tel:4342823733"
             className="bg-red-600 hover:bg-red-700 text-white font-extrabold text-xs uppercase px-5 py-2.5 rounded-lg border border-red-500 shadow-sm transition-all font-mono"
           >
             Ask a Mechanic

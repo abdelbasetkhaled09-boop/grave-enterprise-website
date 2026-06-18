@@ -6,42 +6,42 @@ const HIGHLIGHTS = [
   {
     id: 'exp',
     title: 'Experienced Technicians',
-    description: 'Our certified diesel & auto mechanics have spent years under the hoods of heavy duty haulers, tractors, and passenger vehicles. If it has wheels on it, we can repair or upgrade it.',
+    description: 'Our certified general mechanics and painting specialists have spent years under the hoods of passenger vehicles, SUVs, and commercial engines. From diagnostics to painting, we do it right.',
     icon: Award,
     colorCode: 'text-red-650 bg-red-50 border-red-100'
   },
   {
     id: 'honest',
-    title: 'Honest Texas Pricing',
-    description: 'We run on old-school integrity. No surprise fees, no unsolicited upsells, and no overcharging. We provide upfront estimates and explain every dollar before starting any work.',
+    title: 'Honest & Plain Pricing',
+    description: 'We run on old-school integrity. No surprise fees, no unsolicited upsells, and no overcharging. We provide upfront estimates and explain every dollar before starting any painting or repairs.',
     icon: PiggyBank,
     colorCode: 'text-red-650 bg-red-50 border-red-100'
   },
   {
     id: 'fast',
     title: 'Fast Service Turnaround',
-    description: 'We know your vehicle is your livelihood, especially out here in Sweetwater. We keep our bays organized and our schedule tight for same-day services like bed liners and state testing.',
+    description: 'We know your vehicle is your livelihood, especially here in Scottsville. We keep our service bays organized and our painting booth schedule tight to complete work swiftly.',
     icon: FastForward,
     colorCode: 'text-red-650 bg-red-50 border-red-100'
   },
   {
     id: 'sat',
     title: 'High Customer Satisfaction',
-    description: 'Boasting a 4.8 Rating on Google, our reputation speaks for itself. We treat every vehicle like we are working on our own family rig, resulting in repeat customers across Nolan County.',
+    description: 'Boasting a 4.3 rating on Google based on 29 reviews, our reputation speaks for itself. We treat every vehicle like we are working on our own family rig, resulting in repeat customers.',
     icon: Heart,
     colorCode: 'text-red-650 bg-red-50 border-red-100'
   },
   {
     id: 'parts',
-    title: 'Quality Parts & Accessories',
-    description: 'We don\'t use flimsy components. We fit your rig with legendary national brands like Ranch Hand, READY LIFT, Westin, WeatherTech, and B&W towing products to ensure long haul stamina.',
+    title: 'Quality Parts & Materials',
+    description: 'We do not use flimsy components. We fit your car with legendary national brands and coatings like ACDelco electrical parts, Wagner brakes, and Axalta premium finish paints.',
     icon: ShieldCheck,
     colorCode: 'text-red-650 bg-red-50 border-red-100'
   },
   {
     id: 'local',
-    title: 'Locally Owned Texas Shop',
-    description: 'Grave Enterprise is born-and-raised right here in Sweetwater, TX. We shop locally, hire locally, and understand Nolan county roads, weather issues, and ranchers\' needs.',
+    title: 'Locally Owned Virginia Shop',
+    description: 'William\'s Auto Repair is born-and-raised right here in Scottsville, VA. We shop locally, hire locally, and understand Albemarle and Fluvanna county roads and weather issues.',
     icon: ShieldAlert,
     colorCode: 'text-red-650 bg-red-50 border-red-100'
   }
@@ -58,13 +58,13 @@ export default function WhyChooseUs() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <span className="text-red-600 uppercase tracking-widest font-black text-xs font-mono">
-            Sweetwater Built & Owned
+            Scottsville Built & Owned
           </span>
           <h2 id="why-choose-heading" className="text-3xl sm:text-4xl md:text-5xl font-black text-neutral-900 tracking-tight">
-            Why West Texas Drivers Choose Grave
+            Why Scottsville Drivers Choose William's
           </h2>
           <p className="text-neutral-600 text-sm sm:text-base font-medium">
-            We operate on rugged honesty, premium safety certifications, and expert technical performance to give your passenger car or heavy hauling truck the royal treatment.
+            We operate on rugged honesty, high safety standards, and refinishing expertise to give your passenger car or service vehicle the absolute best treatment.
           </p>
         </div>
 
@@ -97,7 +97,7 @@ export default function WhyChooseUs() {
                 </div>
 
                 <div className="pt-4 border-t border-neutral-100 flex justify-between items-center text-[10px] text-neutral-400 uppercase font-mono tracking-widest font-black">
-                  <span>Grave Certified</span>
+                  <span>William's Certified</span>
                   <span className="bg-neutral-50 border border-neutral-200 px-2 py-0.5 rounded text-neutral-500">Item {index + 1}</span>
                 </div>
               </motion.div>
@@ -109,26 +109,26 @@ export default function WhyChooseUs() {
         <div className="mt-16 bg-white rounded-xl p-8 border border-neutral-200 text-center space-y-6 shadow-sm">
           <div className="inline-flex items-center space-x-2 bg-red-50 border border-red-100 px-3.5 py-1 rounded-full text-[10px] text-red-600 uppercase tracking-widest font-black font-mono">
             <HelpCircle className="h-3.5 w-3.5" />
-            <span>Serving Nolan County & Surrounding Areas</span>
+            <span>Serving Albemarle, Fluvanna Counties & Surrounding Areas</span>
           </div>
-          <h3 className="text-lg sm:text-xl font-bold text-neutral-900 tracking-tight">Our Local Texas Service Areas Include</h3>
+          <h3 className="text-lg sm:text-xl font-bold text-neutral-900 tracking-tight">Our Local Virginia Service Areas Include</h3>
           
           <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
             {[
-              'Sweetwater', 'Snyder', 'Roscoe', 'Colorado City', 'Roby', 
-              'Rotan', 'Merkel', 'Trent', 'Loraine', 'Hermleigh', 'Abilene', 'Blackwell'
+              'Scottsville', 'Glenmore Road', 'Charlottesville', 'Palmyra', 'Fork Union', 
+              'Kents Store', 'Keene', 'Esmont', 'Schuyler', 'Arvonia'
             ].map((city, idx) => (
               <span
                 key={idx}
                 className="bg-neutral-50 border border-neutral-200 text-[11px] text-neutral-700 font-extrabold px-3.5 py-1.5 rounded-lg hover:border-red-600/30 hover:text-red-600 transition-all font-mono shadow-sm"
               >
-                🌾 {city}, TX
+                📌 {city}, VA
               </span>
             ))}
           </div>
           
           <p className="text-xs text-neutral-500 max-w-2xl mx-auto leading-relaxed font-semibold">
-            From industrial networks, ranches, to major commercial highways, we keep drivers connected and safely operational. Click on any contact form below to detail your remote address!
+            From beautiful neighborhoods to major commercial state highways, we serve Scottsville and nearby regions. Contact us to schedule checking your car or truck!
           </p>
         </div>
 

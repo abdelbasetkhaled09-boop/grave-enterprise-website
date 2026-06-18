@@ -26,13 +26,13 @@ export default function Products() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="max-w-2xl space-y-4">
             <span className="text-red-600 uppercase tracking-widest font-black text-xs font-mono">
-              Premium Texas Truck Armor & Accessories
+              Premium Parts & Paint Materials
             </span>
             <h2 id="products-heading" className="text-3xl sm:text-4xl md:text-5xl font-black text-neutral-900 tracking-tight">
               Featured Premium Brands We Carry & Install
             </h2>
             <p className="text-neutral-600 text-sm sm:text-base font-medium">
-              We stand for rugged quality. We don't mess around with flimsy imports—we install heavily tested, certified brands that protect your rig, keep cattle trails safe, and increase towing capacity.
+              We stand for dependable quality. We install heavily tested, premium national replacement parts and paint materials that protect your vehicle and guarantee reliable driving performance.
             </p>
           </div>
           
@@ -122,11 +122,11 @@ export default function Products() {
             Officially Certified Dealer & Install Bay For
           </p>
           <div className="flex flex-wrap justify-center items-center gap-8 sm:gap-16 opacity-60 grayscale hover:opacity-100 transition-opacity duration-300">
-            <span className="text-neutral-800 font-black text-xl tracking-tighter">RANCH HAND</span>
-            <span className="text-neutral-800 font-mono text-lg font-bold">READY LIFT</span>
-            <span className="text-neutral-800 font-sans text-xl font-extrabold">WESTIN</span>
-            <span className="text-neutral-800 font-serif text-2xl tracking-widest">B&W</span>
-            <span className="text-neutral-800 font-black text-xl italic font-serif">RHINO LININGS</span>
+            <span className="text-neutral-800 font-black text-xl tracking-tighter">ACDELCO</span>
+            <span className="text-neutral-800 font-mono text-lg font-bold">WAGNER BRAKES</span>
+            <span className="text-neutral-800 font-sans text-xl font-extrabold">AXALTA PAINTS</span>
+            <span className="text-neutral-800 font-serif text-2xl tracking-widest">VALVOLINE</span>
+            <span className="text-neutral-800 font-black text-xl italic font-serif">MICHELIN</span>
             <span className="text-neutral-800 font-sans text-lg font-black tracking-widest font-bold">WEATHERTECH</span>
           </div>
         </div>

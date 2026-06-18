@@ -29,18 +29,18 @@ export default function Footer() {
                 <ShieldCheck className="h-5 w-5 text-white" />
               </div>
               <span className="text-xl font-black text-neutral-900 tracking-tighter">
-                GRAVE <span className="text-red-650">ENTERPRISE</span>
+                WILLIAM'S <span className="text-red-650">AUTO REPAIR</span>
               </span>
             </div>
 
             <p className="text-neutral-650 text-xs sm:text-sm leading-relaxed max-w-sm font-medium">
-              Sweetwater's absolute gold-standard auto shop. From certified commercial trailer DOT inspections and auto A/C diagnosis to multi-inch lift packages, tires, and Rhino Pro bed coatings, we keep West Texas drivers running strong.
+              Scottsville's absolute gold-standard auto shop. From professional vehicle painting and deep bodywork refinish to full diagnostics, brake replacement, and A/C charging, we keep Scottsville and Albemarle drivers safe on the road.
             </p>
 
             <div className="p-4 bg-neutral-50 rounded-lg border border-neutral-150 flex items-center space-x-3 shadow-sm">
               <CalendarDays className="h-5 w-5 text-red-600 flex-shrink-0" />
               <span className="text-[11px] text-neutral-600 leading-snug font-semibold">
-                Need state safety tests? No appointment necessary. Drive in from 8:00 AM to 6:00 PM, Mon-Fri.
+                Need a paint job or vehicle repair? Appointments recommended for paint booth slots. Drive in from 9:00 AM to 5:00 PM, Mon-Fri.
               </span>
             </div>
           </div>
@@ -66,28 +66,28 @@ export default function Footer() {
           {/* Col 3: Location details */}
           <div className="md:col-span-4 space-y-4">
             <h4 className="text-neutral-900 text-xs font-black uppercase font-mono tracking-widest border-l-2 border-red-650 pl-2.5">
-              Sweetwater Bay Center
+              Scottsville Service Hub
             </h4>
             
             <div className="space-y-3.5 text-xs sm:text-sm text-neutral-600 font-medium">
               <div className="flex items-start space-x-3">
                 <MapPin className="h-4.5 w-4.5 text-red-600 mt-0.5 flex-shrink-0" />
                 <span className="leading-snug">
-                  1504 W Broadway St,<br />
-                  Sweetwater, TX 79556
+                  2280 Glenmore Rd,<br />
+                  Scottsville, VA 24590
                 </span>
               </div>
 
               <div className="flex items-center space-x-3">
                 <Phone className="h-4.5 w-4.5 text-red-600 flex-shrink-0" />
-                <a href="tel:3252197016" className="text-neutral-900 font-black hover:text-red-605 transition-colors">
-                  (325) 219-7016
+                <a href="tel:4342823733" className="text-neutral-900 font-black hover:text-red-605 transition-colors">
+                  (434) 282-3733
                 </a>
               </div>
 
               <div className="pt-2">
                 <a
-                  href="https://maps.google.com/?q=1504+W+Broadway+St,+Sweetwater,+TX+79556"
+                  href="https://maps.google.com/?q=2280+Glenmore+Rd,+Scottsville,+VA+24590"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-1.5 text-xs text-red-600 hover:text-red-700 font-extrabold uppercase tracking-wider font-mono"
@@ -105,16 +105,16 @@ export default function Footer() {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-6 font-medium">
           <div className="text-center sm:text-left">
             <p className="text-[11px] text-neutral-550 leading-normal font-semibold">
-              © {new Date().getFullYear()} Grave Enterprise. All Rights Reserved. Built with pride in Sweetwater, West Texas.
+              © {new Date().getFullYear()} William's Auto Repair. All Rights Reserved. Built with pride in Scottsville, Virginia.
             </p>
             <p className="text-[10px] text-neutral-500 mt-1 font-mono uppercase tracking-widest font-black">
-              State safety station #325-219 • Proud Google 4.8 Rating Authorized Dealer
+              Auto & Paint Specialist • Proud Google 4.3 Rating (29 Reviews)
             </p>
           </div>
 
           <div className="flex items-center space-x-2.5 opacity-60 hover:opacity-100 transition-all font-mono">
             <span className="text-neutral-550 text-[9px] font-black uppercase tracking-widest">
-              TX-DOT Certified Station
+              Virginia Automotive Specialist
             </span>
             <div className="text-red-600 border border-neutral-200 p-1.5 rounded bg-neutral-50 text-xs font-black">
               ★ ★ ★ ★ ★

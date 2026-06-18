@@ -1,6 +1,6 @@
 {
-  "name": "Grave Enterprise",
-  "description": "Sweetwater's premium auto repair, A/C, inspections, and truck accessory shop.",
+  "name": "William's Auto Repair",
+  "description": "Scottsville's trusted auto repair, paint jobs, A/C services, and mechanical maintenance shop.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

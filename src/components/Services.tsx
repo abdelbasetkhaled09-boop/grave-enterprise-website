@@ -150,16 +150,16 @@ export default function Services() {
               <Lucide.AlertCircle className="h-6 w-6 text-red-600" />
             </div>
             <div>
-              <h4 className="text-neutral-900 font-black text-base sm:text-lg">Need towing assistance or roadside pick-up in Sweetwater?</h4>
-              <p className="text-neutral-600 text-sm font-medium">We coordinate with local sweetwater towing fleets to pull your truck straight to our service bay.</p>
+              <h4 className="text-neutral-900 font-black text-base sm:text-lg">Need towing assistance or roadside pick-up in Scottsville?</h4>
+              <p className="text-neutral-600 text-sm font-medium">We coordinate with local Scottsville towing networks to pull your vehicle straight to our service bay.</p>
             </div>
           </div>
           <a
-            href="tel:3252197016"
+            href="tel:4342823733"
             className="flex items-center space-x-2 bg-red-600 hover:bg-red-700 text-white font-black text-sm px-6 py-3 rounded-lg uppercase tracking-wider transition-all font-mono shadow-sm"
           >
             <Lucide.PhoneCall className="h-4 w-4" />
-            <span>(325) 219-7016</span>
+            <span>(434) 282-3733</span>
           </a>
         </div>
 

@@ -54,10 +54,10 @@ export default function Navbar() {
             </div>
             <div>
               <span className="text-xl sm:text-2xl font-black tracking-tighter text-neutral-900 block">
-                GRAVE <span className="text-red-600">ENTERPRISE</span>
+                WILLIAM'S <span className="text-red-600">AUTO REPAIR</span>
               </span>
               <span className="text-[10px] uppercase tracking-widest text-neutral-500 font-bold block -mt-1 font-mono">
-                Sweetwater, TX
+                Scottsville, VA
               </span>
             </div>
           </div>
@@ -78,12 +78,12 @@ export default function Navbar() {
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-4">
             <a
-              href="tel:3252197016"
+              href="tel:4342823733"
               className="flex items-center space-x-2 bg-neutral-100 hover:bg-neutral-200 text-neutral-800 font-bold py-2.5 px-4 rounded-lg border border-neutral-200 transition-all text-sm uppercase tracking-wider font-mono"
               id="desktop-call-btn"
             >
               <Phone className="h-4 w-4 text-red-600" />
-              <span>(325) 219-7016</span>
+              <span>(434) 282-3733</span>
             </a>
             <button
               onClick={() => scrollToSection('contact')}
@@ -97,9 +97,9 @@ export default function Navbar() {
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-3">
             <a
-              href="tel:3252197016"
+              href="tel:4342823733"
               className="bg-red-100 hover:bg-red-200 text-red-600 p-2.5 rounded-lg border border-red-200/50 md:hidden flex items-center justify-center transition-all"
-              aria-label="Call Grave Enterprise"
+              aria-label="Call William's Auto Repair"
             >
               <Phone className="h-5 w-5" />
             </a>
@@ -142,7 +142,7 @@ export default function Navbar() {
 
             <div className="pt-2 grid grid-cols-2 gap-3 px-2">
               <a
-                href="tel:3252197016"
+                href="tel:4342823733"
                 className="flex items-center justify-center space-x-2 bg-neutral-100 text-neutral-800 font-bold py-3 px-4 rounded-lg border border-neutral-200 text-xs uppercase font-mono"
               >
                 <Phone className="h-4 w-4 text-red-600" />

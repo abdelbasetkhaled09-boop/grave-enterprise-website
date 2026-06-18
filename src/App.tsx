@@ -27,13 +27,13 @@ export default function App() {
         {/* Featured Premium Products installation showroom */}
         <Products />
 
-        {/* Value pillars of why drivers choose Grave */}
+        {/* Value pillars of why drivers choose William's */}
         <WhyChooseUs />
 
         {/* Live Customer Google Feed testimonials & writer */}
         <Reviews />
 
-        {/* Photos of custom upgraded trucks and tools */}
+        {/* Photos of completed vehicle repairs and painting booth */}
         <Gallery />
 
         {/* Searchable Support FAQs Accordion */}
